@@ -91,7 +91,7 @@ Ready to contribute? Here's how to set up Nimbus for local development.
     - Give your pull-request a meaningful title.
     - In the description, explain your changes and the problem they are solving.
 
-For the installation and Usage, please visit the [README](flink_ingestion/README.md).
+For the installation and Usage, please visit the [README](README.md).
 
 ## Pull Request Guidelines
 
