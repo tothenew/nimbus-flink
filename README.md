@@ -7,7 +7,7 @@ Learn more about Flink at https://flink.apache.org/
 
 ## Basic Features
 
-![flow diagram](flink_ingestion/docs/images/flow_diagram.png)
+![flow diagram]/docs/images/flow_diagram.png)
 
 Nimbus-Flink enables users to ingest data from multiple sources into different destinations without the need of writing any script.
 User just has to provide details of source and destination in easily configurable json files and Nimbus-Flink will do the rest.
