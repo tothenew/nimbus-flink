@@ -1,0 +1,20 @@
+{
+  "postgresql": {
+    "source":"postgresql",
+    "flink_tbl": "<your flink_table_name>",
+    "database": "<your postgres database>",
+    "table_name": "<your postgres table>",
+    "host":"<your postgres host id>",
+    "port":"5432",
+    "user": "<postgres user>",
+    "password": "<user password>",
+    "connector_type": "jdbc"
+  },
+  "s3": {
+    "flink_tbl": "<your flink_table_name>",
+    "s3_tbl": "<s3 sync table name>",
+    "s3_connector_type": "filesystem",
+    "path": "<s3 storage path >",
+    "format": "csv"
+  }
+}

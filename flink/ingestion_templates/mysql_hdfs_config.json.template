@@ -1,0 +1,21 @@
+{
+  "mysql": {
+    "source":"mysql",
+    "flink_tbl": "<your flink_table_name>",
+    "database": "<your mysql_db>",
+    "table_name": "<your mysql table>",
+    "host":"<mysql host id>",
+    "port":"3306",
+    "user": "<your user>",
+    "password": "<user password>",
+    "connector_type": "jdbc"
+  },
+  "hdfs": {
+    "flink_tbl": "<your flink_table_name>",
+    "hdfs_tbl": "<hdfs table for sync>",
+    "hdfs_connector_type": "filesystem",
+    "path": "<hdfs output storage location >",
+    "format": "csv"
+  }
+
+}
