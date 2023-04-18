@@ -1,0 +1,21 @@
+{
+  "oracle": {
+    "source":"oracle",
+    "flink_tbl": "<your flink_table_name>",
+    "database": "<your oracle database>",
+    "table_name": "<your oracle table>",
+    "driver": "<oracle.jdbc.driver.OracleDriver>",
+    "host":"<oracle host id>",
+    "port":"1521",
+    "user": "<oracle user>",
+    "password": "<user password>",
+    "connector_type": "jdbc"
+  },
+  "hdfs": {
+    "flink_tbl": "<your flink_table_name>",
+    "hdfs_tbl": "<sync table for hdfs>",
+    "hdfs_connector_type": "filesystem",
+    "path": "hdfs://localhost:9000/path_to_data",
+    "format": "csv"
+  }
+}

@@ -1,4 +1,4 @@
-![nimbus logo](/docs/images/nimbus_logo.png)
+![nimbus logo](flink_ingestion/docs/images/nimbus_logo.png)
 
 # Nimbus-Flink : No Code Data Ingestion Framework using Flink
 [Apache Flink](https://nightlies.apache.org/flink/flink-docs-master/api/python/) is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
@@ -7,7 +7,7 @@ Learn more about Flink at https://flink.apache.org/
 
 ## Basic Features
 
-![flow diagram](/docs/images/flow_diagram.png)
+![flow diagram](flink_ingestion/docs/images/flow_diagram.png)
 
 Nimbus-Flink enables users to ingest data from multiple sources into different destinations without the need of writing any script.
 User just has to provide details of source and destination in easily configurable json files and Nimbus-Flink will do the rest.
@@ -26,6 +26,8 @@ User just has to provide details of source and destination in easily configurabl
 #### For Postgresql connection required jars
 * Connector: [JDBC](https://mvnrepository.com/artifact/org.apache.flink/flink-connector-jdbc)
 * Jar should be in lib folder of pyflink : [postgres-sql-jar](https://mvnrepository.com/artifact/org.postgresql/postgresql/42.5.4) 
+#### For Oracle connection required jars:
+* [ojdbc8-21.9.0.0.jar](https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc8/19.18.0.0/ojdbc8-19.18.0.0.jar)
 #### For S3 connection required jars:
 * [s3-fs-presto jar](https://mvnrepository.com/artifact/org.apache.flink/flink-s3-fs-presto)
 * While establishing connection between the Pyflink and S3 bucket make sure you have define these configurations in the pyflink's config.yaml.
