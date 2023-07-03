@@ -1,4 +1,4 @@
-![nimbus logo](flink_ingestion/docs/images/nimbus_logo.png)
+![nimbus logo](/docs/images/nimbus_logo.png)
 
 # Nimbus-Flink : No Code Data Ingestion Framework using Flink
 [Apache Flink](https://nightlies.apache.org/flink/flink-docs-master/api/python/) is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
@@ -7,7 +7,7 @@ Learn more about Flink at https://flink.apache.org/
 
 ## Basic Features
 
-![flow diagram](flink_ingestion/docs/images/flow_diagram.png)
+![flow diagram](/docs/images/flow_diagram.png)
 
 Nimbus-Flink enables users to ingest data from multiple sources into different destinations without the need of writing any script.
 User just has to provide details of source and destination in easily configurable json files and Nimbus-Flink will do the rest.
