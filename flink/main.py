@@ -1,4 +1,5 @@
 '''Running the flink-ingestion Flow.'''
+
 import logging
 from pyflink.table import *
 from pyflink.table import EnvironmentSettings, TableEnvironment
