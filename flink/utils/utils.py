@@ -1,7 +1,6 @@
 import pymysql
 import psycopg2
 import cx_Oracle
-
 def get_postgres_col_with_datatype(cursor,table):
     '''This function will return column name with datatype from specified db_table
     param:cursor, that help to connect with db
